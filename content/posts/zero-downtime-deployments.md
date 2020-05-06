@@ -178,7 +178,7 @@ sudo service nginx reload
 ```
 
 You should see below while I am refreshing my browser that once I reload my nginx the traffic is now being sent between the two docker containers.
-![Screen-Recording-2020-04-29-at-09.18.51-2](https://camthedev.com/content/images/2020/04/Screen-Recording-2020-04-29-at-09.18.51-2.gif)
+![Screen-Recording-2020-04-29-at-09.18.51-2](/images/Recording20200429.gif)
 
 Now I simply remove the first service from my nginx config because I am happy that the new docker image is running successfully
 ```bash
