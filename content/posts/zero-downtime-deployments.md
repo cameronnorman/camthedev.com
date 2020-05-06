@@ -85,7 +85,7 @@ server {
 
 #### Validate that it works
 Once you have setup the above you should proceed to simplesite.com to confirm that your server has been setup correctly
-![Screenshot-2020-04-29-at-09.11.50](https://camthedev.com/images/Screenshot-2020-04-29-at-09.11.50.png)
+![Screenshot-2020-04-29-at-09.11.50](/images/Screenshot20200429.png)
 
 Yay it works!
 
