@@ -1,0 +1,28 @@
+baseURL = "https://camthedev.com/"
+languageCode = "en-us"
+title = "CamTheDev | Cameron Norman"
+theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Blog", URL = "/posts"},
+      {Name = "Github", URL = "https://github.com/cameronnorman/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/cameron-norman-85449579"}
+  ]
+
+[params]
+  siteTitle = "Cameron Norman"
+  jobDescription = "Senior Software developer"
+  company = "Tourlane"
+  googleAnalytics = "Your tracking code"
+  About = "I am a hard-working, dedicated, efficient and reliable individual with a love for Technology. Nothing makes me happier than me using my abilities to make other peoples lives easier. Along with making lives easier though, I do appreciate the effectiveness of saving people time and thus allowing them to get more out of their days. Attending developer meet ups and conferences are things I do religiously and in my spare time I  enjoy playing a good game of football. Currently learning German and hoping to be fluent one day. I'm also an avid gamer who wishes sometimes he could spend more time with his beloved PS4."
+  openSourceProjects = [
+    {Name = "matestack-ui-core", Description = "Create maintainable, dynamic and beautiful UIs easily in Ruby", Link = "https://github.com/matestack/matestack-ui-core"},
+    {Name = "flatshare_app", Description = "A application that helps people manage share appartments", Link = "https://github.com/matestack/matestack-ui-core"},
+  ]
+  workExperience = [
+    {Start = "2019/04", End = "Current", Role = "Senior Software Developer", Logo = "Tourlane GmbH", Company = "Tourlane"},
+    {Start = "2018/04", End = "2019/03", Role = "Intermediate Software Developer", Logo = "Saicom", Company = "Saicom"},
+    {Start = "2015/05", End = "2018/04", Role = "Junior Software Developer", Logo = "Tariffic", Company = "Tariffic"},
+    {Start = "2012/12", End = "2015/05", Role = "Student Worker", Logo = "wits", Company = "Wits Integrated Campus Management"},
+  ]

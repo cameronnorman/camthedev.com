@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://camthedev.com/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://camthedev.com/posts/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://camthedev.com/posts/zero-downtime-deployments/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://camthedev.com/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://camthedev.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://camthedev.com/tags/</loc>
+  </url>
+  
+</urlset>

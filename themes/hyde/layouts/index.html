@@ -1,0 +1,55 @@
+{{ define "main" -}}
+<div class="intro">
+  <img class="circle" src="/images/pp.jpg" />
+  <h1>Hi<img class="wave" src="/images/wave.png" /> </h1>
+  <h1>I'm {{ .Site.Params.siteTitle }}</h1>
+</div>
+<div class="about">
+  {{ .Site.Params.About }}
+</div>
+<div class="work_experience">
+  <h1>Work Experience Summary</h1>
+  {{ range .Site.Params.workExperience -}}
+    <div class="job">
+      <div class="company_logo">
+        <img src="/images/{{.Logo}}.png" />
+      </div>
+      <div class="description">
+        <h3>{{ .Company }}</h3>
+        <p>{{ .Role }}</p>
+        <small>{{ .Start }} - {{ .End }}</small>
+        <a href="/experience/{{ .Company }}" target="_blank">View details</a>
+      </div>
+    </div>
+  {{- end }}
+</div>
+<h1>Open Source Projects</h1>
+<p>A list of projects I have created or help maintain</p>
+<div class="open_source">
+  {{ range .Site.Params.openSourceProjects -}}
+    <a href="{{ .Link }}" target="_blank">
+      <div class="github_project">
+        <img class="github" src="/images/github.svg" />
+        <h3>{{ .Name }}</h3>
+        <small>{{ .Description }}</small>
+      </div>
+    </a>
+  {{- end }}
+</div>
+<!--<div class="posts">-->
+<!--{{ range .Site.RegularPages -}}-->
+<!--<article class="post">-->
+  <!--<h1 class="post-title">-->
+    <!--<a href="{{ .Permalink }}">{{ .Title }}</a>-->
+  <!--</h1>-->
+  <!--[><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time><]-->
+  <!--{{ .Summary }}-->
+  <!--{{ if .Truncated }}-->
+  <!--<div class="read-more-link">-->
+    <!--<a href="{{ .RelPermalink }}">Read More…</a>-->
+  <!--</div>-->
+  <!--{{ end }}-->
+<!--</article>-->
+<!--{{- end }}-->
+<!--</div>-->
+{{- end }}
