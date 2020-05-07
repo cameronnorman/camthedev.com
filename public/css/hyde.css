@@ -81,6 +81,15 @@ html {
   }
 }
 
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+  border: 1px solid #cccccc;
+  margin: 1rem 0;
+}
+
 .work_experience {
   margin: 7em 0
 }

@@ -114,7 +114,8 @@ img {
 }
 
 .intro img {
-  margin: 0 auto
+  margin: 0 auto;
+  border: none
 }
 
 .about {
@@ -124,6 +125,10 @@ img {
 .open_source a {
   text-decoration: none;
   color: #000000;
+}
+
+.open_source img {
+  border: none;
 }
 
 .github_project {
@@ -161,7 +166,8 @@ img {
 }
 
 .job .company_logo img {
-  margin: 0
+  margin: 0;
+  border: none;
 }
 
 .job .description {

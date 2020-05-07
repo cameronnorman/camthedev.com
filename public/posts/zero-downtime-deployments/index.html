@@ -106,7 +106,7 @@ get <span style="color:#e6db74">&#39;/&#39;</span> <span style="color:#66d9ef">d
 <span style="color:#f92672">}</span>
 </code></pre></div><h4 id="validate-that-it-works">Validate that it works</h4>
 <p>Once you have setup the above you should proceed to simplesite.com to confirm that your server has been setup correctly
-<img src="https://camthedev.com/images/Screenshot-2020-04-29-at-09.11.50.png" alt="Screenshot-2020-04-29-at-09.11.50"></p>
+<img src="/images/Screenshot20200429.png" alt="Screenshot-2020-04-29-at-09.11.50"></p>
 <p>Yay it works!</p>
 <h2 id="using-nginx-upstream">Using Nginx Upstream</h2>
 <p>So great! We understand on a very high level how to get traffic to our container through nginx. Now how do we deploy new changes to this service without having downtime? It starts at the Nginx config. Nginx has this cool feature called upstream. Upstream allows you to decide how traffic should be sent to one or more services.</p>
@@ -172,7 +172,7 @@ server <span style="color:#f92672">{</span>
 </code></pre></div><h4 id="reload-nginx-1">Reload nginx</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo service nginx reload
 </code></pre></div><p>You should see below while I am refreshing my browser that once I reload my nginx the traffic is now being sent between the two docker containers.
-<img src="https://camthedev.com/content/images/2020/04/Screen-Recording-2020-04-29-at-09.18.51-2.gif" alt="Screen-Recording-2020-04-29-at-09.18.51-2"></p>
+<img src="/images/Recording20200429.gif" alt="Screen-Recording-2020-04-29-at-09.18.51-2"></p>
 <p>Now I simply remove the first service from my nginx config because I am happy that the new docker image is running successfully</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">upstream simple_website_upstream <span style="color:#f92672">{</span>
     server simple_website_2:3000       weight<span style="color:#f92672">=</span>1;
