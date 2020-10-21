@@ -1,18 +1,17 @@
 baseURL = "https://camthedev.com/"
 languageCode = "en-us"
-title = "CamTheDev | Cameron Norman"
+title = "Cameron Norman | CamTheDev"
 theme = "hyde"
 
 [Menus]
   main = [
-      {Name = "Blog", URL = "/posts"},
       {Name = "Github", URL = "https://github.com/cameronnorman/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/cameron-norman-85449579"}
   ]
 
 [params]
   siteTitle = "Cameron Norman"
-  jobDescription = "Senior Software developer"
+  jobDescription = "Current Role: Senior Software developer"
   company = "Tourlane"
   googleAnalytics = "Your tracking code"
   About = "I am a hard-working, dedicated, efficient and reliable individual with a love for Technology. Nothing makes me happier than me using my abilities to make other peoples lives easier. Along with making lives easier though, I do appreciate the effectiveness of saving people time and thus allowing them to get more out of their days. Attending developer meet ups and conferences are things I do religiously and in my spare time I  enjoy playing a good game of football. Currently learning German and hoping to be fluent one day. I'm also an avid gamer who wishes sometimes he could spend more time with his beloved PS4."
