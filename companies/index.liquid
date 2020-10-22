@@ -1,0 +1,61 @@
+---
+layout: 'layout'
+pagination:
+    data: companies
+    size: 1
+    alias: company
+permalink: "companies/{{ company.slug | slug }}/"
+---
+<div class="columns">
+  <div class="column has-text-centered"><img src="{{company.logo}}" /></div>
+  <div class="column is-four-fifths">
+    <h1 class="is-size-1">{{company.name}}</h1>
+    <p>{{company.description}}</p>
+    <h1 class="is-size-4">{{company.role}}</h1>
+    <p class="is-size-6">Period: {{company.start_date}} - {{company.end_date}}</p>
+    <p class="is-size-6">Duration: {{company.years}} year(s)</p>
+    <p class="is-size-6">Location: {{company.location}}</p>
+  </div>
+</div>
+<hr />
+<p class="is-size-3">{{company.role_description}}</p>
+<p class="is-size-4">Responsibilities</p>
+{% if company.end_date == "Current" %}
+  <p class="mb-4">As a {{company.role}} at {{company.name}} my responsibilities are:</p>
+{% else %}
+  <p class="mb-4">As a {{company.role}} at {{company.name}} my responsibilities were:</p>
+{% endif %}
+<div class="content">
+  <ul>
+    {% for responsibility in company.responsibilities %}
+      <li>{{responsibility}}</li>
+    {% endfor %}
+  </ul>
+</div>
+<p class="is-size-4 mt-4 mb-4">Backend technologies</p>
+<div class="columns">
+  {% for tech in company.technology.backend_technologies %}
+    <div class="column has-text-centered is-one-fifth">
+      <i class="devicon-{{tech.icon}} is-size-1"></i>
+      <p class="mt-4">{{tech.name}}</p>
+    </div>
+  {% endfor %}
+</div>
+<p class="is-size-4 mt-4 mb-4">Frontend technologies</p>
+<div class="columns">
+  {% for tech in company.technology.frontend_technologies %}
+    <div class="column has-text-centered is-one-fifth">
+      <i class="devicon-{{tech.icon}} is-size-1"></i>
+      <p class="mt-4">{{tech.name}}</p>
+    </div>
+  {% endfor %}
+</div>
+<p class="is-size-4 mt-4 mb-4">Hosting and Devops</p>
+<div class="columns">
+  {% for tech in company.technology.devops_hosting %}
+    <div class="column has-text-centered is-one-fifth">
+      <i class="devicon-{{tech.icon}} is-size-1"></i>
+      <p class="mt-4">{{tech.name}}</p>
+    </div>
+  {% endfor %}
+</div>

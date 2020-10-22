@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Tariffic",
+    "description": "",
+    "location": "Johannesburg, South Africa 🇿🇦",
+    "role": "Software developer",
+    "role_description": "",
+    "start_date": "2015.05",
+    "end_date": "2018.02",
+    "years": 2.5,
+    "slug": "tariffic",
+    "logo": "/img/Tariffic.png",
+    "responsibilities": [
+      "Implementing high-quality software in a professional manner.",
+      "Managing and maintaining Software.",
+      "Supporting all customers and staff members during their use of software if needed.",
+      "Advising and providing guidance on areas of the software where I would have expertise.",
+      "Working as a team with other developers",
+      "Keeping up to date with technology."
+    ],
+    "technology": {
+      "backend_technologies": [
+        {"name": "Ruby on Rails", "icon": "ruby-plain"},
+        {"name": "Postgres", "icon": "postgresql-plain"},
+        {"name": "Redis", "icon": "redis-plain"}
+      ],
+      "frontend_technologies": [
+        {"name": "Javascript", "icon": "javascript-plain"},
+        {"name": "VueJS", "icon": "vuejs-plain"},
+        {"name": "Coffeescript", "icon": "coffeescript-plain"},
+        {"name": "Html", "icon": "html5-plain"},
+        {"name": "CSS", "icon": "css3-plain"}
+      ] 
+    }
+  },
+  {
+    "name": "Saicom Voice Services",
+    "description": "",
+    "location": "Johannesburg, South Africa 🇿🇦",
+    "role": "Intermediate Software developer",
+    "role_description": "",
+    "start_date": "2018.03",
+    "end_date": "2019.03",
+    "years": 1,
+    "slug": "saicom",
+    "logo": "/img/Saicom.png",
+    "responsibilities": [
+      "Management Saicoms development team.",
+      "Managing all of Saicoms development processes.",
+      "Supporting all customers and staff members during their use of Saicoms APN.",
+      "Attending requirement gathering meetings for other potential Saicom Integrations.",
+      "Specification of Saicoms future projects.",
+      "To the best of my teams and my responsibility ensure that Saicoms APN and the Simble system have a 100% uptime."
+    ],
+    "technology": {
+      "architecture_types": ["monolith"],
+      "backend_technologies": [
+        {"name": "Ruby on Rails", "icon": "ruby-plain"},
+        {"name": "Postgres", "icon": "postgresql-plain"},
+        {"name": "Javascript", "icon": "javascript-plain"},
+        {"name": "Redis", "icon": "redis-plain"}
+      ],
+      "frontend_technologies": [
+        {"name": "VueJS", "icon": "vuejs-plain"},
+        {"name": "Html", "icon": "html5-plain"},
+        {"name": "CSS", "icon": "css3-plain"}
+      ] ,
+      "devops_hosting": [
+        {"name": "Docker", "icon": "docker-plain"},
+        {"name": "Github Actions (CI/CD)", "icon": "github-plain"}
+      ] 
+    }
+  },
+  {
+    "name": "Tourlane GmbH",
+    "description": "",
+    "location": "Berlin, Germany 🇩🇪",
+    "role": "Senior Software developer",
+    "role_description": "",
+    "start_date": "2019.04",
+    "end_date": "Current",
+    "years": 1.5,
+    "slug": "tourlane",
+    "logo": "/img/Tourlane GmbH.png",
+    "responsibilities": [
+      "A Rock-solid engineer who is a master of their specific domain. Is capable of owning technical design for projects of moderate complexity, and understands the tradeoffs in creating good software in their area.",
+      "Expected to hold a depth of knowledge in systems that enables them to debug those systems effectively. In addition to writing consistently high-quality code",
+      "Expected to be aware of industry best practices and trends and have acquired at least one major skill outside of programming",
+      "Responsible for complex tasks and complete them despite roadblocks, grabbing others for help or insight as necessary",
+      "End-to-end responsibility for projects of increasing complexity that encompass more than their own development.",
+      "Understand the business that their code supports, and possess empathy for the users of their software; they use this understanding to influence their task prioritization.",
+      "Participate extensively in code reviews and mentor others via code reviews and pairing, as well as frequently presenting at Sprint Reviews and team meetings"
+    ],
+    "technology": {
+      "architecture_types": ["monolith"],
+      "backend_technologies": [
+        {"name": "Ruby on Rails", "icon": "ruby-plain"},
+        {"name": "Golang", "icon": "go-plain colored"},
+        {"name": "Postgres", "icon": "postgresql-plain"},
+        {"name": "Redis", "icon": "redis-plain"}
+      ],
+      "frontend_technologies": [
+        {"name": "React", "icon": "react-plain"},
+        {"name": "Html", "icon": "html5-plain"},
+        {"name": "CSS", "icon": "css3-plain"}
+      ] ,
+      "devops_hosting": [
+        {"name": "Amazon AWS", "icon": "amazonwebservices-plain"},
+        {"name": "Docker", "icon": "docker-plain"},
+        {"name": "Github Actions (CI/CD)", "icon": "github-plain"}
+      ] 
+    }
+  }
+]
+
+
+
+
+
+

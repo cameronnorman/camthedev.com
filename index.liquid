@@ -1,0 +1,69 @@
+---
+layout: 'layout'
+about:
+  - "I am a South African (Johannesburg) 🇿🇦 born Software developer with 5 years experience. Moved to Berlin 🇩🇪 about a year ago to explore the Berlin Tech space and learn as much as possible!"
+  - "I am a hard-working, dedicated, efficient and reliable individual with a love for Technology. Nothing makes me happier than using my abilities to make peoples lives easier."
+  - "Attending developer meet ups and conferences are things I do religiously. In my spare time I enjoy playing a good game of football. Currently learning German and hope to be fluent one day. I'm also an avid gamer who wishes sometimes he could spend more time with his beloved Playstation."
+---
+<h1 class="is-size-1 mb-4">About me</h1>
+{% for about_text in about %}
+  <p class="mb-5 is-size-5">{{about_text}}</p>
+{% endfor %}
+
+<hr />
+
+<h1 class="is-size-1 mb-2">Weapons of choice</h1>
+<p class="is-size-6 mb-6">When using technology to create products that are impactful. These are the programming languages I am likely to prefer</p>
+<div class="columns">
+  {% for technology in technologies %}
+    <div class="column has-text-centered">
+      <img class="mb-5" src="{{technology.image}}" />
+      <p class="is-size-5">{{technology.name}}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<hr />
+
+<h1 class="is-size-1 mb-4">Experience</h1>
+<div class="columns is-multiline">
+  {% for company in companies %}
+    <div class="column is-6">
+      <div class="box">
+        <div class="columns">
+          <div class="column">
+            <img src="{{company.logo}}" />
+          </div>
+          <div class="column is-three-quarters">
+            <p class="is-size-3">{{company.name}}</p>
+            <p class="is-size-5">{{company.role}}</p>
+            <small>{{company.start_date}} - {{company.end_date}}</small>
+            <br />
+            <small>Years: {{company.years}} year(s)</small>
+            <br />
+            <small>Location: {{company.location}}</small>
+            <br />
+            <a class="button is-default mt-4" href="companies/{{company.slug}}">View details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<hr />
+
+<h1 class="is-size-1 mb-2">Open Source</h1>
+<p class="is-size-6 mb-6">Below is a list of open source projects I have contributed to</p>
+<div class="columns is-multiple">
+  {% for open_source_project in open_source_projects %}
+    <div class="column is-one-third">
+      <div class="box has-text-centered">
+        <i class="devicon-github-plain is-size-3 mb-3"></i>
+        <p class="is-size-4">{{open_source_project.name}}</p>
+        <p>{{open_source_project.description}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "matestack-ui-core",
+    "description": "Create maintainable, dynamic and beautiful UIs easily in Ruby"
+  },
+  {
+    "name": "flatshare_app",
+    "description": "A application that helps people manage share appartments"
+  }
+]

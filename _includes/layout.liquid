@@ -1,0 +1,67 @@
+---
+profile:
+  name: Cameron Norman
+  languages:
+    -
+      name: English (Native)
+      flag: 🇬🇧
+    -
+      name: German (A2)
+      flag: 🇩🇪
+  image: "/img/pp.jpg"
+  current:
+    role: "Senior Software developer"
+    company: "Tourlane GmbH"
+    place: "Berlin, Germany"
+  links:
+    -
+      name: "View LinkedIn profile"
+      url: "https://www.linkedin.com/in/cameron-norman-85449579/"
+      icon: "linkedin-plain"
+    -
+      name: "View Github profile"
+      url: "https://github.com/cameronnorman"
+      icon: "github-plain"
+---
+<!doctype html>
+<html>
+  <head>
+    <title>Cameron Norman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  </head>
+  <body>
+    <div class="columns">
+      <div class="column p-0 m-0">
+        <div class="sticky custom_background has-text-white p-6 is-fullheight">
+          <div class="pt-6"></div>
+          <div class="pt-6"></div>
+          <div class="pt-6"></div>
+          <div class="pt-6"></div>
+          <div class="pt-6"></div>
+          <h2 class="is-size-2">Hi! 👋</h2>
+          <h2 class="is-size-4">I'm <span class="has-text-weight-semibold">{{profile.name}}</span></h2>
+          {% for language in profile.languages %}
+            <span class="mr-2"><span class="mr-1">{{language.flag}}</span>{{language.name}}</span>
+          {% endfor %}
+          <div class="mt-5">
+            <p class="is-size-5 has-text-weight-semibold">{{profile.current.role}}</p>
+            <p class="is-size-6">{{profile.current.company}}</p>
+            <p class="is-size-6">{{profile.current.place}}</p>
+          </div>
+          <div class="mt-5">
+            {% for link in profile.links %}
+              <p>
+                <i class="devicon-{{link.icon}} mr-1"></i>
+                <span><a class="has-text-white" href="{{link.url}}" target="_blank">{{link.name}}</a></span>
+              </p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="column is-three-quarters p-6">
+        {{ content | safe }}
+  </body>
+</html>

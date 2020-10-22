@@ -1,0 +1,12 @@
+.custom_background {
+  background-image: url("/img/background2.png");
+  background-position: -12em -4em;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.sticky	{
+  position: sticky;
+  top: 0px;
+  min-height: 100vh;
+}
