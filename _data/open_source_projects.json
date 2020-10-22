@@ -1,10 +1,12 @@
 [
   {
     "name": "matestack-ui-core",
-    "description": "Create maintainable, dynamic and beautiful UIs easily in Ruby"
+    "description": "Create maintainable, dynamic and beautiful UIs easily in Ruby",
+    "link": "https://github.com/matestack/matestack-ui-core"
   },
   {
     "name": "flatshare_app",
-    "description": "A application that helps people manage share appartments"
+    "description": "A application that helps people manage share appartments",
+    "link": "https://github.com/casi/flatshare_app"
   }
 ]
