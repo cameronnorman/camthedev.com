@@ -30,6 +30,9 @@
         {"name": "Coffeescript", "icon": "coffeescript-plain"},
         {"name": "Html", "icon": "html5-plain"},
         {"name": "CSS", "icon": "css3-plain"}
+      ] ,
+      "devops_hosting": [
+        {"name": "Heroku", "icon": "heroku-plain"}
       ] 
     }
   },
@@ -64,7 +67,7 @@
         {"name": "VueJS", "icon": "vuejs-plain"},
         {"name": "Html", "icon": "html5-plain"},
         {"name": "CSS", "icon": "css3-plain"}
-      ] ,
+      ],
       "devops_hosting": [
         {"name": "Docker", "icon": "docker-plain"},
         {"name": "Github Actions (CI/CD)", "icon": "github-plain"}
