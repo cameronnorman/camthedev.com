@@ -6,12 +6,12 @@
   },
   {
     "name": "flatshare_app",
-    "description": "A application that helps people manage share appartments",
+    "description": "An application that helps people manage share appartments",
     "link": "https://github.com/casi/flatshare_app"
   },
   {
     "name": "retro",
-    "description": "A application that assists with remote retros",
+    "description": "An application that can be used to manage retrospectives for teams. No javascript :)",
     "link": "https://github.com/emad-elsaid/retro"
   }
 ]
