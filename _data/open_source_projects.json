@@ -8,5 +8,12 @@
     "name": "flatshare_app",
     "description": "A application that helps people manage share appartments",
     "link": "https://github.com/casi/flatshare_app"
+  },
+  {
+    "name": "retro",
+    "description": "A application that assists with remote retros",
+    "link": "https://github.com/emad-elsaid/retro"
   }
 ]
+
+
