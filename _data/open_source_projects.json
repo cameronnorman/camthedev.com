@@ -19,7 +19,7 @@
   },
   {
     "name": "emaily",
-    "description": "Send emails via HTTP requests with / without a templates.",
+    "description": "Send emails via HTTP requests with / without a template.",
     "link": "https://github.com/cameronnorman/emaily",
     "languages": ["Golang"]
   }
