@@ -63,7 +63,7 @@ about:
         <p class="is-size-4">{{open_source_project.name}}</p>
         <p class="mb-2">{{open_source_project.description}}</p>
         {% for language in open_source_project.languages %}
-          <span class="tag">{{language}}</span>
+          <span class="tag is-dark">{{language}}</span>
         {% endfor %}
         <br />
         <a class="button is-default mt-4" href="{{open_source_project.link}}" target="_blank">View project</a>

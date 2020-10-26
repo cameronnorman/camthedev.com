@@ -13,7 +13,7 @@
   },
   {
     "name": "retro",
-    "description": "An application that can be used to manage retrospectives for teams. No javascript :)",
+    "description": "Manage retrospectives for teams. No javascript :)",
     "link": "https://github.com/emad-elsaid/retro",
     "languages": ["Ruby"]
   },
