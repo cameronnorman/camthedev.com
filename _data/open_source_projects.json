@@ -19,8 +19,8 @@
   },
   {
     "name": "emaily",
-    "description": "An open source, self hosted application used to send emails via HTTP requests. Useful templates included",
-    "link": "https://github.com/emad-elsaid/retro",
+    "description": "Send emails via HTTP requests with / without a templates.",
+    "link": "https://github.com/cameronnorman/emaily",
     "languages": ["Golang"]
   }
 ]
