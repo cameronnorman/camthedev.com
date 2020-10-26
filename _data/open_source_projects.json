@@ -2,17 +2,26 @@
   {
     "name": "matestack-ui-core",
     "description": "Create maintainable, dynamic and beautiful UIs easily in Ruby",
-    "link": "https://github.com/matestack/matestack-ui-core"
+    "link": "https://github.com/matestack/matestack-ui-core",
+    "languages": ["Ruby", "Vue JS"]
   },
   {
     "name": "flatshare_app",
     "description": "An application that helps people manage share appartments",
-    "link": "https://github.com/casi/flatshare_app"
+    "link": "https://github.com/casi/flatshare_app",
+    "languages": ["Ruby", "Postgres"]
   },
   {
     "name": "retro",
     "description": "An application that can be used to manage retrospectives for teams. No javascript :)",
-    "link": "https://github.com/emad-elsaid/retro"
+    "link": "https://github.com/emad-elsaid/retro",
+    "languages": ["Ruby"]
+  },
+  {
+    "name": "emaily",
+    "description": "An open source, self hosted application used to send emails via HTTP requests. Useful templates included",
+    "link": "https://github.com/emad-elsaid/retro",
+    "languages": ["Golang"]
   }
 ]
 

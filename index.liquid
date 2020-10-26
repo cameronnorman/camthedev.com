@@ -55,14 +55,18 @@ about:
 
 <h1 class="is-size-1 mb-2">Open Source</h1>
 <p class="is-size-6 mb-6">Below is a list of open source projects I have contributed to</p>
-<div class="columns is-multiple">
+<div class="columns is-multiline">
   {% for open_source_project in open_source_projects %}
     <div class="column is-one-third">
       <div class="box has-text-centered">
         <i class="devicon-github-plain is-size-3 mb-3"></i>
         <p class="is-size-4">{{open_source_project.name}}</p>
-        <p>{{open_source_project.description}}</p>
-        <a class="button is-default mt-4" href="{{open_source_project.link}}" target="_blank">View details</a>
+        <p class="mb-2">{{open_source_project.description}}</p>
+        {% for language in open_source_project.languages %}
+          <span class="tag">{{language}}</span>
+        {% endfor %}
+        <br />
+        <a class="button is-default mt-4" href="{{open_source_project.link}}" target="_blank">View project</a>
       </div>
     </div>
   {% endfor %}
